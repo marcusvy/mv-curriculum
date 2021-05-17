@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "pages": "ng build --configuration production --baseHref='https://marcusvy.github.io/mv-curriculum/'  --output-path docs"
   },
   "private": true,
   "dependencies": {
@@ -33,6 +34,7 @@
     "@angular/compiler-cli": "~12.0.0",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
+    "angular-cli-ghpages": "^0.6.2",
     "autoprefixer": "^10.2.5",
     "jasmine-core": "~3.7.0",
     "karma": "~6.3.0",
