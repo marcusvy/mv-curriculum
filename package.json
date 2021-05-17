@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "pages": "ng build --configuration production --baseHref='https://marcusvy.github.io/mv-curriculum/'  --output-path docs"
+    "pages": "ng build --configuration production --base-href https://marcusvy.github.io/mv-curriculum/  --output-path docs"
   },
   "private": true,
   "dependencies": {
